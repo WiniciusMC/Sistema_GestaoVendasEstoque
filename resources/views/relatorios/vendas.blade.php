@@ -33,7 +33,7 @@
                                 </select>
                             </div>
                             <div>
-                                <x-action-button type="submit" color="blue">Gerar Relatório</x-action-button>
+                                {-- <x-action-button type="submit" color="blue">Gerar Relatório</x-action-button> --}
                             </div>
                             <div>
                                 <a href="{{ route('relatorios.vendas.pdf', ['data_inicio' => $dataInicio, 'data_fim' => $dataFim, 'user_id' => $vendedorSelecionadoId]) }}"
